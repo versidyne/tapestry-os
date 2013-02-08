@@ -1,0 +1,378 @@
+00000000000i[     ] Bochs x86 Emulator 2.4.5
+00000000000i[     ]   Build from CVS snapshot, on April 25, 2010
+00000000000i[     ] System configuration
+00000000000i[     ]   processors: 1 (cores=1, HT threads=1)
+00000000000i[     ]   A20 line support: yes
+00000000000i[     ] CPU configuration
+00000000000i[     ]   level: 6
+00000000000i[     ]   SMP support: no
+00000000000i[     ]   APIC support: yes
+00000000000i[     ]   FPU support: yes
+00000000000i[     ]   MMX support: yes
+00000000000i[     ]   3dnow! support: no
+00000000000i[     ]   SEP support: yes
+00000000000i[     ]   SSE support: sse2
+00000000000i[     ]   XSAVE support: no
+00000000000i[     ]   AES support: no
+00000000000i[     ]   MOVBE support: no
+00000000000i[     ]   x86-64 support: yes
+00000000000i[     ]   1G paging support: no
+00000000000i[     ]   MWAIT support: no
+00000000000i[     ]   VMX support: no
+00000000000i[     ] Optimization configuration
+00000000000i[     ]   RepeatSpeedups support: yes
+00000000000i[     ]   Trace cache support: yes
+00000000000i[     ]   Fast function calls: yes
+00000000000i[     ] Devices configuration
+00000000000i[     ]   ACPI support: yes
+00000000000i[     ]   NE2000 support: yes
+00000000000i[     ]   PCI support: yes, enabled=yes
+00000000000i[     ]   SB16 support: yes
+00000000000i[     ]   USB support: yes
+00000000000i[     ]   VGA extension support: vbe 
+00000000000i[MEM0 ] allocated memory at 0x7f80fce11010. after alignment, vector=0x7f80fce12000
+00000000000i[MEM0 ] 32.00MB
+00000000000i[MEM0 ] mem block size = 0x00100000, blocks=32
+00000000000p[MEM0 ] >>PANIC<< ROM: System BIOS must end at 0xfffff
+00000000000i[MEM0 ] rom at 0xc0000/32768 ('/usr/share/bochs/VGABIOS-elpin-2.40')
+00000000000i[VTIME] using 'realtime pit' synchronization method
+00000000000i[     ] lt_dlhandle is 0x37ac550
+00000000000i[PLGIN] loaded plugin libbx_cmos.so
+00000000000i[     ] lt_dlhandle is 0x37acf40
+00000000000i[PLGIN] loaded plugin libbx_dma.so
+00000000000i[     ] lt_dlhandle is 0x37ad970
+00000000000i[PLGIN] loaded plugin libbx_pic.so
+00000000000i[     ] lt_dlhandle is 0x37ae1b0
+00000000000i[PLGIN] loaded plugin libbx_pit.so
+00000000000i[     ] lt_dlhandle is 0x37aeb00
+00000000000i[PLGIN] loaded plugin libbx_vga.so
+00000000000i[     ] lt_dlhandle is 0x37af200
+00000000000i[PLGIN] loaded plugin libbx_floppy.so
+00000000000i[     ] lt_dlhandle is 0x37afdf0
+00000000000i[PLGIN] loaded plugin libbx_pci.so
+00000000000i[     ] lt_dlhandle is 0x37b0940
+00000000000i[PLGIN] loaded plugin libbx_pci2isa.so
+00000000000i[     ] lt_dlhandle is 0x37b1220
+00000000000i[PLGIN] loaded plugin libbx_unmapped.so
+00000000000i[     ] lt_dlhandle is 0x37b1a90
+00000000000i[PLGIN] loaded plugin libbx_biosdev.so
+00000000000i[     ] lt_dlhandle is 0x37b24b0
+00000000000i[PLGIN] loaded plugin libbx_speaker.so
+00000000000i[     ] lt_dlhandle is 0x37b2c60
+00000000000i[PLGIN] loaded plugin libbx_extfpuirq.so
+00000000000i[     ] lt_dlhandle is 0x37b3460
+00000000000i[PLGIN] loaded plugin libbx_gameport.so
+00000000000i[     ] lt_dlhandle is 0x37b3dd0
+00000000000i[PLGIN] loaded plugin libbx_pci_ide.so
+00000000000i[     ] lt_dlhandle is 0x37b4770
+00000000000i[PLGIN] loaded plugin libbx_acpi.so
+00000000000i[     ] lt_dlhandle is 0x37b5070
+00000000000i[PLGIN] loaded plugin libbx_ioapic.so
+00000000000i[     ] lt_dlhandle is 0x37b5980
+00000000000i[PLGIN] loaded plugin libbx_keyboard.so
+00000000000i[     ] lt_dlhandle is 0x37b61c0
+00000000000i[PLGIN] loaded plugin libbx_harddrv.so
+00000000000i[     ] lt_dlhandle is 0x37c8260
+00000000000i[PLGIN] loaded plugin libbx_serial.so
+00000000000i[     ] lt_dlhandle is 0x37c90d0
+00000000000i[PLGIN] loaded plugin libbx_parallel.so
+00000000000i[CMOS ] Using local time for initial clock
+00000000000i[CMOS ] Setting initial clock to: Tue Aug  9 08:53:58 2011 (time0=1312905238)
+00000000000i[DMA  ] channel 4 used by cascade
+00000000000i[DMA  ] channel 2 used by Floppy Drive
+00000000000e[FDD  ] cannot determine media geometry, trying to use defaults
+00000000000i[FDD  ] fd0: '/dev/loop0' ro=0, h=2,t=80,spt=18
+00000000000i[PCI  ] 440FX Host bridge present at device 0, function 0
+00000000000i[PCI  ] PIIX3 PCI-to-ISA bridge present at device 1, function 0
+00000000000i[VGA  ] interval=50000
+00000000000i[MEM0 ] Register memory access handlers: 0x000a0000 - 0x000bffff
+00000000000i[XGUI ] test_alloc_colors: 16 colors available out of 16 colors tried
+00000000000i[XGUI ] font 8 wide x 16 high, display depth = 24
+00000000000i[MEM0 ] Register memory access handlers: 0xe0000000 - 0xe0ffffff
+00000000000i[VGA  ] VBE Bochs Display Extension Enabled
+00000000000i[PLGIN] init_dev of 'unmapped' plugin device by virtual method
+00000000000i[PLGIN] init_dev of 'biosdev' plugin device by virtual method
+00000000000i[PLGIN] init_dev of 'speaker' plugin device by virtual method
+00000000000i[SPEAK] Open /dev/console successfully
+00000000000i[PLGIN] init_dev of 'extfpuirq' plugin device by virtual method
+00000000000i[PLGIN] init_dev of 'gameport' plugin device by virtual method
+00000000000i[PLGIN] init_dev of 'pci_ide' plugin device by virtual method
+00000000000i[PCI  ] PIIX3 PCI IDE controller present at device 1, function 1
+00000000000i[PLGIN] init_dev of 'acpi' plugin device by virtual method
+00000000000i[PCI  ] ACPI Controller present at device 1, function 3
+00000000000i[PLGIN] init_dev of 'ioapic' plugin device by virtual method
+00000000000i[IOAP ] initializing I/O APIC
+00000000000i[MEM0 ] Register memory access handlers: 0xfec00000 - 0xfec00fff
+00000000000i[PLGIN] init_dev of 'keyboard' plugin device by virtual method
+00000000000i[KBD  ] will paste characters every 1000 keyboard ticks
+00000000000i[PLGIN] init_dev of 'harddrv' plugin device by virtual method
+00000000000i[HD   ] Using boot sequence floppy, none, none
+00000000000i[HD   ] Floppy boot signature check is enabled
+00000000000i[PLGIN] init_dev of 'serial' plugin device by virtual method
+00000000000i[SER  ] com1 at 0x03f8 irq 4
+00000000000i[PLGIN] init_dev of 'parallel' plugin device by virtual method
+00000000000i[PAR  ] parallel port 1 at 0x0378 irq 7
+00000000000i[PLGIN] register state of 'unmapped' plugin device by virtual method
+00000000000i[PLGIN] register state of 'biosdev' plugin device by virtual method
+00000000000i[PLGIN] register state of 'speaker' plugin device by virtual method
+00000000000i[PLGIN] register state of 'extfpuirq' plugin device by virtual method
+00000000000i[PLGIN] register state of 'gameport' plugin device by virtual method
+00000000000i[PLGIN] register state of 'pci_ide' plugin device by virtual method
+00000000000i[PLGIN] register state of 'acpi' plugin device by virtual method
+00000000000i[PLGIN] register state of 'ioapic' plugin device by virtual method
+00000000000i[PLGIN] register state of 'keyboard' plugin device by virtual method
+00000000000i[PLGIN] register state of 'harddrv' plugin device by virtual method
+00000000000i[PLGIN] register state of 'serial' plugin device by virtual method
+00000000000i[PLGIN] register state of 'parallel' plugin device by virtual method
+00000000000i[SYS  ] bx_pc_system_c::Reset(HARDWARE) called
+00000000000i[CPU0 ] cpu hardware reset
+00000000000i[APIC0] allocate APIC id=0 (MMIO enabled) to 0xfee00000
+00000000000i[CPU0 ] CPUID[0x00000000]: 00000003 756e6547 6c65746e 49656e69
+00000000000i[CPU0 ] CPUID[0x00000001]: 00000f20 00000800 00002000 078bfbff
+00000000000i[CPU0 ] CPUID[0x00000002]: 00410601 00000000 00000000 00000000
+00000000000i[CPU0 ] CPUID[0x00000003]: 00000000 00000000 00000000 00000000
+00000000000i[CPU0 ] CPUID[0x00000004]: 00000000 00000000 00000000 00000000
+00000000000i[CPU0 ] CPUID[0x80000000]: 80000008 00000000 00000000 00000000
+00000000000i[CPU0 ] CPUID[0x80000001]: 00000000 00000000 00000101 2a100800
+00000000000i[CPU0 ] CPUID[0x80000002]: 20202020 20202020 20202020 6e492020
+00000000000i[CPU0 ] CPUID[0x80000003]: 286c6574 50202952 69746e65 52286d75
+00000000000i[CPU0 ] CPUID[0x80000004]: 20342029 20555043 20202020 00202020
+00000000000i[CPU0 ] CPUID[0x80000006]: 00000000 42004200 02008140 00000000
+00000000000i[CPU0 ] CPUID[0x80000007]: 00000000 00000000 00000000 00000000
+00000000000i[CPU0 ] CPUID[0x80000008]: 00003020 00000000 00000000 00000000
+00000000000i[PLGIN] reset of 'unmapped' plugin device by virtual method
+00000000000i[PLGIN] reset of 'biosdev' plugin device by virtual method
+00000000000i[PLGIN] reset of 'speaker' plugin device by virtual method
+00000000000i[PLGIN] reset of 'extfpuirq' plugin device by virtual method
+00000000000i[PLGIN] reset of 'gameport' plugin device by virtual method
+00000000000i[PLGIN] reset of 'pci_ide' plugin device by virtual method
+00000000000i[PLGIN] reset of 'acpi' plugin device by virtual method
+00000000000i[PLGIN] reset of 'ioapic' plugin device by virtual method
+00000000000i[PLGIN] reset of 'keyboard' plugin device by virtual method
+00000000000i[PLGIN] reset of 'harddrv' plugin device by virtual method
+00000000000i[PLGIN] reset of 'serial' plugin device by virtual method
+00000000000i[PLGIN] reset of 'parallel' plugin device by virtual method
+00000000000i[XGUI ] [x] Mouse off
+00000032737i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000065504i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000098272i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000098298i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000131039i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000131064i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000163806i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000163825i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000163830i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000196571i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000196589i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000196594i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000229335i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000229354i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000229359i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000262100i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000262110i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000262118i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000262123i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000294864i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000294871i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000294873i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000294881i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000294886i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000327627i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000327631i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000327633i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000327635i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000327643i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000327648i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000360389i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000360391i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000360393i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000360395i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000360397i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000360405i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000360410i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000393150i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000393152i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000393154i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000393156i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000393158i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000393166i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000393171i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000425910i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000425912i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000425914i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000425916i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000425918i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000425926i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000425931i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000450474i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000450476i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000450478i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000450480i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000450482i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000450490i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000450495i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000464163i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000464165i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000464167i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000464169i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000464171i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000464179i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000464184i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000477851i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000477853i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000477855i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000477857i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000477859i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000477867i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000477872i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000491539i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000491541i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000491543i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000491545i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000491547i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000491555i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000491560i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000491564e[CPU0 ] write_virtual_word_32(): segment limit violation
+00000491564e[CPU0 ] write_virtual_word_32(): segment limit violation
+00000491564e[CPU0 ] write_virtual_word_32(): segment limit violation
+00000491564i[CPU0 ] CPU is in real mode (active)
+00000491564i[CPU0 ] CS.d_b = 16 bit
+00000491564i[CPU0 ] SS.d_b = 16 bit
+00000491564i[CPU0 ] EFER   = 0x00000000
+00000491564i[CPU0 ] | RAX=0000000000000016  RBX=0000000000002020
+00000491564i[CPU0 ] | RCX=000000000000e000  RDX=0000000000000f06
+00000491564i[CPU0 ] | RSP=0000000000000001  RBP=0000000000000000
+00000491564i[CPU0 ] | RSI=0000000000000000  RDI=0000000000000000
+00000491564i[CPU0 ] |  R8=0000000000000000   R9=0000000000000000
+00000491564i[CPU0 ] | R10=0000000000000000  R11=0000000000000000
+00000491564i[CPU0 ] | R12=0000000000000000  R13=0000000000000000
+00000491564i[CPU0 ] | R14=0000000000000000  R15=0000000000000000
+00000491564i[CPU0 ] | IOPL=0 id vip vif ac vm RF nt of DF if tf sf zf AF pf cf
+00000491564i[CPU0 ] | SEG selector     base    limit G D
+00000491564i[CPU0 ] | SEG sltr(index|ti|rpl)     base    limit G D
+00000491564i[CPU0 ] |  CS:0600( 1e00| 0|  0) 00006000 0000ffff 0 0
+00000491564i[CPU0 ] |  DS:0000( 0000| 0|  0) 00000000 0000ffff 0 0
+00000491564i[CPU0 ] |  SS:0000( 0000| 0|  0) 00000000 0000ffff 0 0
+00000491564i[CPU0 ] |  ES:0000( 0000| 0|  0) 00000000 0000ffff 0 0
+00000491564i[CPU0 ] |  FS:0000( 0000| 0|  0) 00000000 0000ffff 0 0
+00000491564i[CPU0 ] |  GS:0000( 0000| 0|  0) 00000000 0000ffff 0 0
+00000491564i[CPU0 ] |  MSR_FS_BASE:0000000000000000
+00000491564i[CPU0 ] |  MSR_GS_BASE:0000000000000000
+00000491564i[CPU0 ] | RIP=0000000000009ffd (0000000000009ffd)
+00000491564i[CPU0 ] | CR0=0x60000010 CR2=0x0000000000000000
+00000491564i[CPU0 ] | CR3=0x00000000 CR4=0x00000000
+00000491564i[CPU0 ] 0x0000000000009ffd>> lock add al, byte ptr ds:[bx+si] : F00200
+00000491564e[CPU0 ] exception(): 3rd (12) exception with no resolution, shutdown status is 00h, resetting
+00000491564i[SYS  ] bx_pc_system_c::Reset(HARDWARE) called
+00000491564i[CPU0 ] cpu hardware reset
+00000491564i[APIC0] allocate APIC id=0 (MMIO enabled) to 0xfee00000
+00000491564i[CPU0 ] CPUID[0x00000000]: 00000003 756e6547 6c65746e 49656e69
+00000491564i[CPU0 ] CPUID[0x00000001]: 00000f20 00000800 00002000 078bfbff
+00000491564i[CPU0 ] CPUID[0x00000002]: 00410601 00000000 00000000 00000000
+00000491564i[CPU0 ] CPUID[0x00000003]: 00000000 00000000 00000000 00000000
+00000491564i[CPU0 ] CPUID[0x00000004]: 00000000 00000000 00000000 00000000
+00000491564i[CPU0 ] CPUID[0x80000000]: 80000008 00000000 00000000 00000000
+00000491564i[CPU0 ] CPUID[0x80000001]: 00000000 00000000 00000101 2a100800
+00000491564i[CPU0 ] CPUID[0x80000002]: 20202020 20202020 20202020 6e492020
+00000491564i[CPU0 ] CPUID[0x80000003]: 286c6574 50202952 69746e65 52286d75
+00000491564i[CPU0 ] CPUID[0x80000004]: 20342029 20555043 20202020 00202020
+00000491564i[CPU0 ] CPUID[0x80000006]: 00000000 42004200 02008140 00000000
+00000491564i[CPU0 ] CPUID[0x80000007]: 00000000 00000000 00000000 00000000
+00000491564i[CPU0 ] CPUID[0x80000008]: 00003020 00000000 00000000 00000000
+00000491564i[PLGIN] reset of 'unmapped' plugin device by virtual method
+00000491564i[PLGIN] reset of 'biosdev' plugin device by virtual method
+00000491564i[PLGIN] reset of 'speaker' plugin device by virtual method
+00000491564i[PLGIN] reset of 'extfpuirq' plugin device by virtual method
+00000491564i[PLGIN] reset of 'gameport' plugin device by virtual method
+00000491564i[PLGIN] reset of 'pci_ide' plugin device by virtual method
+00000491564i[PLGIN] reset of 'acpi' plugin device by virtual method
+00000491564i[PLGIN] reset of 'ioapic' plugin device by virtual method
+00000491564i[PLGIN] reset of 'keyboard' plugin device by virtual method
+00000491564i[PLGIN] reset of 'harddrv' plugin device by virtual method
+00000491564i[PLGIN] reset of 'serial' plugin device by virtual method
+00000491564i[PLGIN] reset of 'parallel' plugin device by virtual method
+00000505228i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000505230i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000505232i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000505234i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000505236i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000505244i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000505249i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000518917i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000518919i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000518921i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000518923i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000518925i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000518933i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000532603i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000532605i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000532607i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000532609i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000532611i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000532619i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000546291i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000546293i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000546295i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000546297i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000546299i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000559981i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000559983i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000559985i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000559987i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000559989i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000573669i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000573671i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000573673i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000573675i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000587358i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000587360i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000587362i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000601050i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000601052i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000628406i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000655756i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000669449i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000683141i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000696834i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000710526i[CPU0 ] LOCK prefix unallowed (op1=0x2, attr=0x0, mod=0x0, nnn=0)
+00000724129e[CPU0 ] read_RMW_virtual_word_32(): segment limit violation
+00000724475e[CPU0 ] read_virtual_word_32(): segment limit violation
+00000724822e[CPU0 ] read_virtual_word_32(): segment limit violation
+00000725168e[CPU0 ] read_virtual_word_32(): segment limit violation
+00000725514e[CPU0 ] read_virtual_word_32(): segment limit violation
+00000725860e[CPU0 ] read_virtual_word_32(): segment limit violation
+00000726207e[CPU0 ] read_virtual_word_32(): segment limit violation
+00000748082i[CPU0 ] LOCK prefix unallowed (op1=0x4d, attr=0x0, mod=0x0, nnn=0)
+00000774107e[CPU0 ] prefetch: EIP [00010000] > CS.limit [0000ffff]
+00692846500i[     ] cpu loop quit, shutting down simulator
+00692846500i[CPU0 ] CPU is in real mode (active)
+00692846500i[CPU0 ] CS.d_b = 16 bit
+00692846500i[CPU0 ] SS.d_b = 16 bit
+00692846500i[CPU0 ] EFER   = 0x00000000
+00692846500i[CPU0 ] | RAX=00000000000093ff  RBX=000000000000ffff
+00692846500i[CPU0 ] | RCX=0000000000003600  RDX=0000000000000f1f
+00692846500i[CPU0 ] | RSP=000000000000c91c  RBP=000000000000ffff
+00692846500i[CPU0 ] | RSI=0000000000000076  RDI=000000000000009f
+00692846500i[CPU0 ] |  R8=0000000000000000   R9=0000000000000000
+00692846500i[CPU0 ] | R10=0000000000000000  R11=0000000000000000
+00692846500i[CPU0 ] | R12=0000000000000000  R13=0000000000000000
+00692846500i[CPU0 ] | R14=0000000000000000  R15=0000000000000000
+00692846500i[CPU0 ] | IOPL=0 id vip vif ac vm rf nt of DF if tf sf zf AF PF CF
+00692846500i[CPU0 ] | SEG selector     base    limit G D
+00692846500i[CPU0 ] | SEG sltr(index|ti|rpl)     base    limit G D
+00692846500i[CPU0 ] |  CS:0600( 1e00| 0|  0) 00006000 0000ffff 0 0
+00692846500i[CPU0 ] |  DS:0000( 0000| 0|  0) 00000000 0000ffff 0 0
+00692846500i[CPU0 ] |  SS:fffd( 0000| 0|  0) 000fffd0 0000ffff 0 0
+00692846500i[CPU0 ] |  ES:fffd( 0000| 0|  0) 000fffd0 0000ffff 0 0
+00692846500i[CPU0 ] |  FS:0000( 0000| 0|  0) 00000000 0000ffff 0 0
+00692846500i[CPU0 ] |  GS:0000( 0000| 0|  0) 00000000 0000ffff 0 0
+00692846500i[CPU0 ] |  MSR_FS_BASE:0000000000000000
+00692846500i[CPU0 ] |  MSR_GS_BASE:0000000000000000
+00692846500i[CPU0 ] | RIP=000000000000095c (000000000000095c)
+00692846500i[CPU0 ] | CR0=0x60000010 CR2=0x0000000000000000
+00692846500i[CPU0 ] | CR3=0x00000000 CR4=0x00000000
+00692846500i[CPU0 ] 0x000000000000095c>> add byte ptr ds:0x4, al : 00060400
+00692846500i[CMOS ] Last time is 1312906622 (Tue Aug  9 09:17:02 2011)
+00692846500i[XGUI ] Exit
+00692846500i[     ] restoring default signal behavior
+00692846500i[CTRL ] quit_sim called with exit code 1

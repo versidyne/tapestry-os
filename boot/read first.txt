@@ -1,0 +1,6 @@
+These are some code examples I will be studying from,
+not anything I've built or utilized as of yet.
+
+I wouldn't try and use them with my kernel...  At all.
+
+-- Alex

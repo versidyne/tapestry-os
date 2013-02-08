@@ -1,0 +1,14 @@
+# System Variables
+default 1
+timeout 5
+
+# Vexis OS
+title	Vexis OS
+	kernel /kernel
+	module /initrd
+
+# Hard Drive
+title	Hard Drive
+	root (hd0,0)
+	chainloader (hd0)+1
+
