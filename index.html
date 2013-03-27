@@ -28,13 +28,55 @@
     <div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
-          <h1>vexis-os</h1>
+          <h1>Vexis OS - Universal Operating System</h1>
 
-<p>Unix-Like Operating System in C</p>
+<h5>Overview</h5>
 
-<h1>Overview</h1>
+<p>This is the complete core of Vexis OS, a Unix-Like Operating System in C.  This will eventually be utilized for thin clients, various network nodes, websites, and anything else one's heart can desire.</p>
 
-<p>Other stuff</p>
+<h5>Goals</h5>
+
+<ul>
+<li><p>Maintain a solid system for which networking, radio frequency modulation, video gaming, etc can be had.  The issue in this scenario is the system is meant to be universal, so the intial installation must be very basic but still have all necessary components for expansion within the main administration panel.  This will be an interesting hurdle to jump over, but it will be important in maintain a solid, universal product for many generations to come.</p></li>
+<li><p>Maintain several different architectures and gateways that will provide different types of functionality for various games, applications, methods, etc running directly from the kernel as a window manager.  This makes reboots for modes more frequent but will boost performance greatly.</p></li>
+</ul><h1>Installation</h1>
+
+<h5>Overview</h5>
+
+<p>This is a simple process and will remain as such if instructions are followed carefully.</p>
+
+<h5>Configuration</h5>
+
+<p>This is currently not an option, though it will be in the future.</p>
+
+<h5>Virtualization</h5>
+
+<p>Simply run vexisb.iso as a CD Rom.  This can be done with bochs, qemu, or virtualbox-ose easily.</p>
+
+<div class="highlight"><pre>qemu --cdrom img/vexisb.iso --boot d -soundhw all
+</pre></div>
+
+<h5>Finalizing</h5>
+
+<p>There is currently nothing to finalize.</p>
+
+<h1>System Roles</h1>
+
+<h5>Overview</h5>
+
+<p>The roles that follow are separated within a directory specific to its name.  Within these directories, each role will have its format and place in the order of the system as it runs.  The role will dictate where a particular feature will need to go and from there we can maintain quite a vast sense of universal ability.</p>
+
+<h5>Boot</h5>
+
+<p>This is where various ASM Bootloader sources are held.</p>
+
+<h5>Source</h5>
+
+<p>Information regarding the code will be added soon.</p>
+
+<h1>Credits</h1>
+
+<p>This project has always been built by only one programmer, Alex Gurrola.  One day he hopes this system will no longer require his influence to progress without feature creep.</p>
         </section>
 
         <aside id="sidebar">
