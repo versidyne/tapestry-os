@@ -3,10 +3,10 @@ Vexis OS - Universal Operating System
 #####Overview
 This is the complete core of Vexis OS, a Unix-Like Operating System in C.  This will eventually be utilized for thin clients, various network nodes, websites, and anything else one's heart can desire.
 
-#####Main Goals
-* Maintain a solid system of which website development and graphic design can take place.  The issue in this scenario is that the system is meant to be universal, so the intial installation must be very basic but still have all necessary components for expansion within the main administration panel.  This will be an interesting hurdle to jump over, but it will be important in maintain a solid, universal product for many generations to come.
+#####Goals
+* Maintain a solid system for which networking, radio frequency modulation, video gaming, etc can be had.  The issue in this scenario is the system is meant to be universal, so the intial installation must be very basic but still have all necessary components for expansion within the main administration panel.  This will be an interesting hurdle to jump over, but it will be important in maintain a solid, universal product for many generations to come.
 
-* Maintain several different "gateways" that will provide different types of functionality for various domains, subdomains, and virtual subdirectories.
+* Maintain several different "gateways" that will provide different types of functionality for various games, applications, methods, etc running directly from the kernel as a window manager.  This makes reboots for modes more frequent but will boost performance greatly.
 
 Installation
 =====
