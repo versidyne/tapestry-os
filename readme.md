@@ -17,10 +17,10 @@ This is a simple process and will remain as such if instructions are followed ca
 This is currently not an option, though it will be in the future.
 
 #####Virtualization
-Simply run vexisb.iso as a CD Rom.  This can be done with bochs, qemu, or virtualbox-ose easily.
+Simply run vexis.iso as a CD Rom.  This can be done with bochs, qemu, or virtualbox-ose easily.
 
 ```sh
-qemu --cdrom img/vexisb.iso --boot d -soundhw all
+qemu --cdrom img/vexis.iso --boot d -soundhw all
 ```
 
 #####Finalizing
