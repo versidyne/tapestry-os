@@ -5,7 +5,7 @@ MAIN=src
 CORE=$(MAIN)/core
 DRIVERS=$(MAIN)/drivers
 LIB=$(MAIN)/lib
-MEM=$(MAIN)/mem
+MM=$(MAIN)/mm
 NET=$(MAIN)/net
 PROC=$(MAIN)/proc
 UI=$(MAIN)/ui
@@ -15,7 +15,7 @@ VFS=$(MAIN)/vfs
 SOURCES=$(CORE)/boot.o $(CORE)/main.o $(CORE)/common.o $(CORE)/cpu.o $(CORE)/acpi.o $(CORE)/apm.o $(CORE)/ordered_array.o \
         $(DRIVERS)/keyboard.o $(DRIVERS)/monitor.o $(DRIVERS)/mouse.o $(DRIVERS)/pit.o $(DRIVERS)/sound.o \
         $(LIB)/stdio.o $(LIB)/string.o $(LIB)/syscall.o \
-        $(MEM)/descriptor_tables.o $(MEM)/gdt.o $(MEM)/kheap.o $(MEM)/paging.o \
+        $(MM)/descriptor_tables.o $(MM)/gdt.o $(MM)/kheap.o $(MM)/paging.o \
         $(NET)/net.o \
         $(PROC)/isr.o $(PROC)/interrupt.o $(PROC)/process.o $(PROC)/task.o \
         $(UI)/cli.o $(UI)/gui.o \
