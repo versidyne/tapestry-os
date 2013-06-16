@@ -24,7 +24,7 @@ extern void shutdown();
 void cl_interface(fs_node_t *fs_root) {
   while (true) {
     char buffer[256];
-    printf("Command: ");
+    printf("# ");
     scanf(buffer);
     cl_handler(buffer, fs_root);
   }
@@ -189,7 +189,7 @@ void cl_handler(char* buffer, fs_node_t *fs_root) {
     twinkle();
   }
   else if (strcmp(buffer,"usermode") == 0) {
-    umode_disp();
+    umode_disp(fs_root);
   }
   else if (strcmp(buffer,"version") == 0) {
     version_disp();
@@ -209,12 +209,6 @@ void dir_disp(fs_node_t *fs_root) {
   
   // The next section of code is not reentrant so make sure we aren't interrupted during.
   //cli();
-
-  // display
-  printf("Displaying contents of /.\n");
-
-  // add blank line
-  printf("\n");
 
   // list the contents of /
   int i = 0;
@@ -259,12 +253,6 @@ void file_disp(fs_node_t *fs_root) {
   // The next section of code is not reentrant so make sure we aren't interrupted during.
   //asm volatile("cli");
 
-  // display
-  printf("Displaying contents of /.\n");
-
-  // add blank line
-  printf("\n");
-
   // list the contents of /
   int i = 0;
   struct dirent *node = 0;
@@ -285,7 +273,7 @@ void file_disp(fs_node_t *fs_root) {
       u32int sz = read_fs(fsnode, 0, 256, buf);
       int j;
       for (j = 0; j < sz; j++)
-	monitor_put(buf[j]);
+		monitor_put(buf[j]);
       
       printf("\"\n");
       
@@ -388,15 +376,15 @@ void time_disp() {
   
   // display time
   monitor_write_dec(readCMOS(0x0));
-  printf("\n");
+  printf(" ");
   monitor_write_dec(readCMOS(0x2));
-  printf("\n");
+  printf(" ");
   monitor_write_dec(readCMOS(0x4));
-  printf("\n");
+  printf(" ");
   monitor_write_dec(readCMOS(0x7));
-  printf("\n");
+  printf(" ");
   monitor_write_dec(readCMOS(0x8));
-  printf("\n");
+  printf(" ");
   monitor_write_dec(readCMOS(0x9));
   //printf("\n");
   //monitor_write_dec(mktime(getDatetime()));
@@ -407,19 +395,24 @@ void time_disp() {
 }
 
 // Tests a usermode iteration.
-void umode_disp() {
-
+void umode_disp(fs_node_t *fs_root) {
+  
   // Initialize the system calls
   initialise_syscalls();
-
+  
   // user mode
   switch_to_user_mode();
-
-  // add blank line
-  syscall_monitor_write("\n");
-
-  // display
-  syscall_monitor_write("Entered user mode.  Many features will now be disabled.\n");
+  
+  // begin cli
+  ucl_interface(fs_root);
+  
+  // begin user cli
+  /*while (true) {
+    char buffer[256];
+    syscall_monitor_write("$ ");
+    scanf(buffer);
+    cl_handler(buffer, fs_root);
+  }*/
   
 }
 
@@ -427,7 +420,7 @@ void umode_disp() {
 void ucl_interface(fs_node_t *fs_root) {
   while (true) {
     char buffer[256];
-    printf("Command: ");
+    syscall_monitor_write("$ ");
     scanf(buffer);
     cl_handler(buffer, fs_root);
   }

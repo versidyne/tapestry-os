@@ -38,7 +38,10 @@ void logo_disp();
 void time_disp();
 
 // Tests a usermode iteration.
-void umode_disp();
+void umode_disp(fs_node_t *fs_root);
+
+// Runs a usermode cli
+void ucl_interface(fs_node_t *fs_root);
 
 // Displays the system version on the main screen.
 void version_disp();
