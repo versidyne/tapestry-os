@@ -3,7 +3,7 @@
 //
 
 #include "task.h"
-#include "../mem/paging.h"
+//#include "../mm/paging.h"
 
 // The currently running task.
 volatile task_t *current_task;

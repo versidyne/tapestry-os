@@ -5,7 +5,7 @@
 #define TASK_H
 
 #include "../core/common.h"
-#include "../mem/paging.h"
+#include "../mm/paging.h"
 
 #define KERNEL_STACK_SIZE 2048       // Use a 2kb kernel stack.
 
