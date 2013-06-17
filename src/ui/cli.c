@@ -319,9 +319,6 @@ void fork_disp() {
 // Displays the help menu on the main screen.
 void help_disp() {
   
-  // add blank line
-  printf("\n");
-  
   // list commands
   printf("beep\t\tCreate a beep from built in speaker.\n");
   printf("clear\t\tClear all data from the screen.\n");
@@ -345,9 +342,6 @@ void help_disp() {
   printf("version\t\tDisplays the system version.\n");
   printf("vga\t\tAttempts to switch to VGA Mode.\n");
   printf("wait\t\tAttempt to wait for one second.\n");
-  
-  // add blank line
-  printf("\n");
   
 }
 
