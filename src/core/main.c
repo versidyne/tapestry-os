@@ -49,7 +49,7 @@ int main(struct multiboot *mboot_ptr, u32int initial_stack) {
   // Add blank line
   printf("\n");
   
-  // Add blank line
+  // Add note
   printf("Note: Type 'help' for a list of available commands.\n");
   
   // Start command line interface
