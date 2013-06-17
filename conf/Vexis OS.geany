@@ -16,7 +16,7 @@ long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=69
+current_page=16
 FILE_NAME_0=0;C;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Fsrc%2Farch%2Farm.c;0;4
 FILE_NAME_1=0;C;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Fsrc%2Farch%2Farm.h;0;4
 FILE_NAME_2=0;C;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Fsrc%2Farch%2Fppc.c;0;4
@@ -33,7 +33,7 @@ FILE_NAME_12=0;C;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvex
 FILE_NAME_13=0;C;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Fsrc%2Fcore%2Fcpu.c;0;4
 FILE_NAME_14=0;C;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Fsrc%2Fcore%2Fcpu.h;0;4
 FILE_NAME_15=0;C;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Fsrc%2Fcore%2Finfo.h;0;4
-FILE_NAME_16=0;C;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Fsrc%2Fcore%2Fmain.c;0;4
+FILE_NAME_16=983;C;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Fsrc%2Fcore%2Fmain.c;0;4
 FILE_NAME_17=0;C;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Fsrc%2Fcore%2Fmain.h;0;4
 FILE_NAME_18=0;C;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Fsrc%2Fcore%2Fmultiboot.h;0;4
 FILE_NAME_19=0;C;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Fsrc%2Fcore%2Fordered_array.c;0;4
@@ -86,7 +86,7 @@ FILE_NAME_65=0;C;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvex
 FILE_NAME_66=0;C;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Fsrc%2Fvfs%2Finitrd.h;0;4
 FILE_NAME_67=0;Conf;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Finitrd%2Fconfig;0;4
 FILE_NAME_68=0;None;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Finitrd%2Fdriver;0;4
-FILE_NAME_69=0;C;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Finitrd%2Fmake_initrd.c;0;4
+FILE_NAME_69=269;C;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Finitrd%2Fmake_initrd.c;0;4
 
 [file_prefs]
 final_new_line=true
