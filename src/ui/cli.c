@@ -322,13 +322,6 @@ void help_disp() {
   // add blank line
   printf("\n");
   
-  // display help
-  printf("Below is a list of all system commands available.\n");
-  printf("Note: Many features are still under development.\n");
-  
-  // add blank line
-  printf("\n");
-  
   // list commands
   printf("beep\t\tCreate a beep from built in speaker.\n");
   printf("clear\t\tClear all data from the screen.\n");
