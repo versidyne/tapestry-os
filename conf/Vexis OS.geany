@@ -16,7 +16,7 @@ long_line_behaviour=1
 long_line_column=72
 
 [files]
-current_page=16
+current_page=66
 FILE_NAME_0=0;C;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Fsrc%2Farch%2Farm.c;0;4
 FILE_NAME_1=0;C;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Fsrc%2Farch%2Farm.h;0;4
 FILE_NAME_2=0;C;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Fsrc%2Farch%2Fppc.c;0;4
@@ -28,7 +28,7 @@ FILE_NAME_7=0;C;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexi
 FILE_NAME_8=0;C;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Fsrc%2Fcore%2Facpi.c;0;4
 FILE_NAME_9=0;None;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Fsrc%2Fcore%2Fapm.s;0;4
 FILE_NAME_10=0;None;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Fsrc%2Fcore%2Fboot.s;0;4
-FILE_NAME_11=0;C;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Fsrc%2Fcore%2Fcommon.c;0;4
+FILE_NAME_11=1293;C;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Fsrc%2Fcore%2Fcommon.c;0;4
 FILE_NAME_12=0;C;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Fsrc%2Fcore%2Fcommon.h;0;4
 FILE_NAME_13=0;C;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Fsrc%2Fcore%2Fcpu.c;0;4
 FILE_NAME_14=0;C;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Fsrc%2Fcore%2Fcpu.h;0;4
@@ -76,7 +76,7 @@ FILE_NAME_55=0;C;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvex
 FILE_NAME_56=0;None;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Fsrc%2Fproc%2Fprocess.s;0;4
 FILE_NAME_57=0;C;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Fsrc%2Fproc%2Ftask.c;0;4
 FILE_NAME_58=0;C;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Fsrc%2Fproc%2Ftask.h;0;4
-FILE_NAME_59=0;C;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Fsrc%2Fui%2Fcli.c;0;4
+FILE_NAME_59=6579;C;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Fsrc%2Fui%2Fcli.c;0;4
 FILE_NAME_60=0;C;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Fsrc%2Fui%2Fcli.h;0;4
 FILE_NAME_61=0;C;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Fsrc%2Fui%2Fgui.c;0;4
 FILE_NAME_62=0;C;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Fsrc%2Fui%2Fgui.h;0;4
@@ -84,9 +84,6 @@ FILE_NAME_63=0;C;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvex
 FILE_NAME_64=0;C;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Fsrc%2Fvfs%2Ffs.h;0;4
 FILE_NAME_65=0;C;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Fsrc%2Fvfs%2Finitrd.c;0;4
 FILE_NAME_66=0;C;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Fsrc%2Fvfs%2Finitrd.h;0;4
-FILE_NAME_67=0;Conf;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Finitrd%2Fconfig;0;4
-FILE_NAME_68=0;None;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Finitrd%2Fdriver;0;4
-FILE_NAME_69=269;C;0;16;1;1;0;%2Fhome%2Falexgurrola%2Fprogramming%2Fprojects%2Fvexis-os%2Finitrd%2Fmake_initrd.c;0;4
 
 [file_prefs]
 final_new_line=true
