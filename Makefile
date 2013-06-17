@@ -13,7 +13,7 @@ VFS=$(MAIN)/vfs
 
 # File Locations
 SOURCES=$(CORE)/boot.o $(CORE)/main.o $(CORE)/common.o $(CORE)/cpu.o $(CORE)/acpi.o $(CORE)/apm.o $(CORE)/ordered_array.o \
-        $(DRIVERS)/keyboard.o $(DRIVERS)/monitor.o $(DRIVERS)/mouse.o $(DRIVERS)/pit.o $(DRIVERS)/sound.o \
+        $(DRIVERS)/keyboard.o $(DRIVERS)/monitor.o $(DRIVERS)/mouse.o $(DRIVERS)/pit.o $(DRIVERS)/sound.o $(DRIVERS)/vga.o \
         $(LIB)/stdio.o $(LIB)/string.o $(LIB)/syscall.o \
         $(MM)/descriptor_tables.o $(MM)/gdt.o $(MM)/kheap.o $(MM)/paging.o \
         $(NET)/net.o \
