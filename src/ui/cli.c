@@ -194,6 +194,9 @@ void cl_handler(char* buffer, fs_node_t *fs_root) {
   else if (strcmp(buffer,"version") == 0) {
     version_disp();
   }
+  else if (strcmp(buffer,"vga") == 0) {
+    VgaTest();
+  }
   else if (strcmp(buffer,"wait") == 0) {
     timer_wait(250000);
   }
@@ -347,6 +350,7 @@ void help_disp() {
   printf("twinkle\t\tPlays Twinkle, Twinkle Little Star.\n");
   printf("usermode\tAttempt to switch to user mode.\n");
   printf("version\t\tDisplays the system version.\n");
+  printf("vga\t\tAttempts to switch to VGA Mode.\n");
   printf("wait\t\tAttempt to wait for one second.\n");
   
   // add blank line

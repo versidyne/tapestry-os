@@ -10,6 +10,7 @@
 #include "../drivers/mouse.h"
 #include "../drivers/pit.h"
 #include "../drivers/sound.h"
+#include "../drivers/vga.h"
 #include "../vfs/fs.h"
 #include "../lib/stdio.h"
 
