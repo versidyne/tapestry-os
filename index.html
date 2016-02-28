@@ -1,102 +1,106 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
-    <meta charset='utf-8'>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
-
+    <title>Tapestry OS by versidyne</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-    <title>Vexis OS by versidyne</title>
   </head>
-
   <body>
-    <header>
-      <div class="inner">
-        <h1>Vexis OS</h1>
-        <h2>Universal Operating System</h2>
-        <a href="https://github.com/versidyne/vexis-os" class="button"><small>View project on</small>GitHub</a>
-      </div>
-    </header>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/versidyne/tapestry-os">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/versidyne/tapestry-os/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/versidyne/tapestry-os/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
 
-    <div id="content-wrapper">
-      <div class="inner clearfix">
-        <section id="main-content">
-          <h1>General</h1>
+    <div class="wrapper">
 
-<h5>Overview</h5>
+      <section>
+        <div id="title">
+          <h1>Tapestry OS</h1>
+          <p>Universal Operating System</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/versidyne">versidyne</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
 
-<p>This is the complete core of Vexis OS, a Unix-Like Operating System in C.  This will eventually be utilized for thin clients, various network nodes, websites, and anything else one's heart can desire.</p>
+        <h1>
+<a id="tapestry-os---universal-operating-system" class="anchor" href="#tapestry-os---universal-operating-system" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Tapestry OS - Universal Operating System</h1>
 
-<h5>Goals</h5>
+<h5>
+<a id="overview" class="anchor" href="#overview" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Overview</h5>
+
+<p>This is the complete core of Tapestry OS, a Unix-Like Operating System in C.  This will eventually be utilized to run long range wireless networking and thin clients for the Tapestry network.</p>
+
+<h5>
+<a id="goals" class="anchor" href="#goals" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Goals</h5>
 
 <ul>
-<li><p>Maintain a solid system for which networking, radio frequency modulation, video gaming, etc can be had.  The issue in this scenario is the system is meant to be universal, so the intial installation must be very basic but still have all necessary components for expansion within the main administration panel.  This will be an interesting hurdle to jump over, but it will be important in maintain a solid, universal product for many generations to come.</p></li>
-<li><p>Maintain several different architectures and gateways that will provide different types of functionality for various games, applications, methods, etc running directly from the kernel as a window manager.  This makes reboots for modes more frequent but will boost performance greatly.</p></li>
-</ul><h1>Installation</h1>
+<li><p>Maintain a solid system for which networking, radio frequency modulation, and custom-rom thin clients/video games can be developed with ease.</p></li>
+<li><p>Develop a robust, abstract, kernel with several different architectures and internal gateways that will provide different types of functionality for switching roms to various games, applications, methods, etc, running directly from the kernel as a window manager.  This makes reboots for modes more frequent but will boost performance greatly.</p></li>
+</ul>
 
-<h5>Overview</h5>
+<h1>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h1>
+
+<h5>
+<a id="overview-1" class="anchor" href="#overview-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Overview</h5>
 
 <p>This is a simple process and will remain as such if instructions are followed carefully.</p>
 
-<h5>Configuration</h5>
+<h5>
+<a id="configuration" class="anchor" href="#configuration" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Configuration</h5>
 
 <p>This is currently not an option, though it will be in the future.</p>
 
-<h5>Virtualization</h5>
+<h5>
+<a id="virtualization" class="anchor" href="#virtualization" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Virtualization</h5>
 
-<p>Simply run vexisb.iso as a CD Rom.  This can be done with bochs, qemu, or virtualbox-ose easily.</p>
+<p>Simply run tapestry.iso as a CD Rom.  This can be done with bochs, qemu, or virtualbox-ose easily.</p>
 
-<div class="highlight"><pre>qemu --cdrom img/vexisb.iso --boot d -soundhw all
-</pre></div>
+<div class="highlight highlight-source-shell"><pre>qemu --cdrom img/tapestry.iso --boot d -soundhw all</pre></div>
 
-<h5>Finalizing</h5>
+<h5>
+<a id="finalizing" class="anchor" href="#finalizing" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Finalizing</h5>
 
 <p>There is currently nothing to finalize.</p>
 
-<h1>System Roles</h1>
+<h1>
+<a id="system-roles" class="anchor" href="#system-roles" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>System Roles</h1>
 
-<h5>Overview</h5>
+<h5>
+<a id="overview-2" class="anchor" href="#overview-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Overview</h5>
 
 <p>The roles that follow are separated within a directory specific to its name.  Within these directories, each role will have its format and place in the order of the system as it runs.  The role will dictate where a particular feature will need to go and from there we can maintain quite a vast sense of universal ability.</p>
 
-<h5>Boot</h5>
+<h5>
+<a id="boot" class="anchor" href="#boot" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Boot</h5>
 
 <p>This is where various ASM Bootloader sources are held.</p>
 
-<h5>Source</h5>
+<h5>
+<a id="source" class="anchor" href="#source" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Source</h5>
 
 <p>Information regarding the code will be added soon.</p>
+      </section>
 
-<h1>Credits</h1>
-
-<p>This project has always been built by only one programmer, Alex Gurrola.  One day he hopes this system will no longer require his influence to progress without feature creep.</p>
-        </section>
-
-        <aside id="sidebar">
-          <a href="https://github.com/versidyne/vexis-os/zipball/master" class="button">
-            <small>Download</small>
-            .zip file
-          </a>
-          <a href="https://github.com/versidyne/vexis-os/tarball/master" class="button">
-            <small>Download</small>
-            .tar.gz file
-          </a>
-
-          <p class="repo-owner"><a href="https://github.com/versidyne/vexis-os"></a> is maintained by <a href="https://github.com/versidyne">versidyne</a>.</p>
-
-          <p>This page was generated by <a href="pages.github.com">GitHub Pages</a> using the Architect theme by <a href="http://twitter.com/jasonlong">Jason Long</a>.</p>
-        </aside>
-      </div>
     </div>
-
-            <script type="text/javascript">
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+              <script type="text/javascript">
             var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
             document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
           </script>
