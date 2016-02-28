@@ -4,4 +4,4 @@
 
 cd ..
 
-tar -czf Vexis.tar.gz *
+tar -czf Tapestry.tar.gz *

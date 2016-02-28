@@ -1,5 +1,5 @@
 #!/bin/bash
-# Vexis OS Maintenance Script
+# Tapestry OS Maintenance Script
 # Credits: Scaery
 
 Options=$@
@@ -9,7 +9,7 @@ sARG=empty
 larguments='no '
 lARG=empty
 
-#Depended VexisOS
+#Depended Tapestry OS
 
 sclean='no '	#-c
 smake='no ' 	#-m (reset and make)
@@ -33,7 +33,7 @@ $Options $*
 	#Normal Options
 		-h	--help		Show this message
 		-A	--arguments=...	Set arguments to yes ($arguments) AND get ARGUMENT ($ARG)
-	#Depending Vexis Commands
+	#Depending Tapestry Commands
                 -a      --archive       Archive the current project files ($archive)
                 -b      --build         Build Project ($build)
 		-c	--clean		Cleaning Project ($clean)
@@ -68,7 +68,7 @@ while getopts ':abchmlu-A:BF-' OPTION ; do
        shift
       ;;
 
-## vexis commands support
+## tapestry commands support
 	c) sclean=yes
 		if [ "${1:1:0}" != "-" ]
 		then
@@ -101,7 +101,7 @@ while getopts ':abchmlu-A:BF-' OPTION ; do
 		cp bin/kernel iso/kernel
 		cp bin/initrd.img iso/initrd
 		# Build CD Format
-		genisoimage -R -b boot/grub/stage2_eltorito -no-emul-boot -boot-load-size 4 -boot-info-table -o img/vexis.iso -A Vexis iso
+		genisoimage -R -b boot/grub/stage2_eltorito -no-emul-boot -boot-load-size 4 -boot-info-table -o img/tapestry.iso -A Tapestry iso
 	echo -ne "[+]Copy files to iso folder Done\n[+]Build CD Format Done\n"
 	echo "==> BUILD DONE"
 	fi;;
@@ -110,8 +110,8 @@ while getopts ':abchmlu-A:BF-' OPTION ; do
 	if [ "${1:1:0}" != "-" ]
 		then
 	echo "BUILD CLEAN AND ARCHIVE..."
-		tar -czf Vexis.tar.gz *
-	echo "Files were with -czvf in Vexis.tar.gz archived"
+		tar -czf Tapestry.tar.gz *
+	echo "Files were with -czvf in Tapestry.tar.gz archived"
 	echo "==> ARCHIVE DONE"
 	fi;;
 
@@ -120,7 +120,7 @@ while getopts ':abchmlu-A:BF-' OPTION ; do
 		then
                 echo "You must be a root user or try with sudo" 2>&1
                 exit 1
-		#/sbin/losetup /dev/loop0 img/vexis.iso
+		#/sbin/losetup /dev/loop0 img/tapestry.iso
 		else
 		mnt2="/mnt2"
 		if [ -s $mnt2 ]
@@ -128,7 +128,7 @@ while getopts ':abchmlu-A:BF-' OPTION ; do
 		else mkdir -p $mnt2
 		echo "Mountpoint /mnt2 created... "
 		fi
-		mount -o loop -t iso9660 img/vexis.iso /mnt2
+		mount -o loop -t iso9660 img/tapestry.iso /mnt2
 		echo "==> MOUNT DONE"
 	fi;;
 	u) sunmount=yes

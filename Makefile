@@ -21,24 +21,50 @@ SOURCES=$(CORE)/boot.o $(CORE)/main.o $(CORE)/common.o $(CORE)/cpu.o $(CORE)/acp
         $(UI)/cli.o $(UI)/gui.o \
         $(VFS)/fs.o $(VFS)/initrd.o \
 
-# Compiler Flags
+# Detect OS
+UNAME := $(shell uname)
+
+# Compilers (Universal)
+AS=nasm
+ASFLAGS=-felf
+
+#Compilers (Platform)
+ifeq ($(UNAME), Linux)
+CC=gcc
 CFLAGS=-nostdlib -nostdinc -fno-builtin -m32
 #CFLAGS=-nostdlib -nostdinc -fno-builtin -m64
+CXX=g++
+#CXXFLAGS=
+CPP=cpp
+#CPPFLAGS=
+LD=ld
 LDFLAGS=-Tlink.ld -melf_i386
-ASFLAGS=-felf
+endif
+
+ifeq ($(UNAME), Darwin)
+CC=gcc-5
+CFLAGS=-nostdlib -nostdinc -fno-builtin -m32
+#CFLAGS=-nostdlib -nostdinc -fno-builtin -m64
+CXX=g++
+CXX=g++-5
+#CXXFLAGS=
+CPP=cpp-5
+#CPPFLAGS=
+LD=gcc-5
+LDFLAGS=
+endif
 
 # Make Silent
 .SILENT:
 
 # User Functions
-
 all: $(SOURCES) link
 
 clean:
 	-rm bin/kernel src/*/*.o
 
 link:
-	ld $(LDFLAGS) -o kernel $(SOURCES)
+	$(LD) $(LDFLAGS) -o kernel $(SOURCES)
 
 .s.o:
-	nasm $(ASFLAGS) $<
+	$(AS) $(ASFLAGS) $<
